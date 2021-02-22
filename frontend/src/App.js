@@ -3,6 +3,10 @@
 import logo from './images/newlogo.png';
 import './App.css';
 import Introduction from './Components/day 1/first';
+import Second from './Components/day 1/Second';
+import FirstParagraph from './Components/day 1/info';
+
+import PropsDiff from './Components/day 1/Prop/Intermediate/PropsDiff'
 
 function App() {
   return (
@@ -13,6 +17,9 @@ function App() {
           I'm going to build my CV by just using React
         </p>
         <Introduction> </Introduction>
+        <Second></Second>
+        <FirstParagraph> </FirstParagraph>
+        <PropsDiff></PropsDiff>
         <a
           className="App-link"
           href="https://github.com/MohamudMussa/"
