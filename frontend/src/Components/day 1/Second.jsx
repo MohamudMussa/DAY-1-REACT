@@ -9,7 +9,7 @@ return(
 
     <>
     
-    <p> This was edited on {date.toLocaleDateString()} </p>
+    <p> This CV was last updated on {date.toLocaleDateString()} </p>
 
     </>
     

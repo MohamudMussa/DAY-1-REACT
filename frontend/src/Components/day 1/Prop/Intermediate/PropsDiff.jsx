@@ -10,7 +10,7 @@ const ProbsDiff = () => {
 
     const bool = true;
 
-    const str = "Hello, world!";
+    const str = "My Projects ";
 
     const someObject = {
 
@@ -23,19 +23,17 @@ const ProbsDiff = () => {
     };
 
 
-    const someArray = ["Apple", "Kiwi", "Orange"];
+    //const someArray = ["JavaScript", "React", "HTML5"];
 
-    const someFunk = () => {'A function'};
+    const someFunk = () => ('A function');
  
  
     return(
 
         <CompProp
-        num={myVal}
-        bool={bool}
         string={str}
         object={someObject}
-        array={someArray}
+       // array={someArray}
         funk={someFunk}
         />
       

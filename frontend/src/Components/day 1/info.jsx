@@ -6,7 +6,7 @@ const FirstParagraph = () => {
 
     return (
 
-        <p1> `I’ve always been deeply interested in IT, 
+        <h5 > I’ve always been deeply interested in IT, 
         constantly keeping myself up to date with new technologies 
         and how they affect the world that we live in. I studied 
         Computer Science in both A levels and University. This gave me 
@@ -18,7 +18,7 @@ const FirstParagraph = () => {
         both technical and non-technical formats. However, this didn’t 
         fulfil my creative hunger. I’ve since been focusing on gaining 
         and solidifying my programming skills in order to solve 
-        problems and to also create things that I think of`  </p1> 
+        problems and to also create things that I think of. </h5> 
 
     )
 
