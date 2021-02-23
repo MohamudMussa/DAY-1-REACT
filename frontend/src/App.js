@@ -2,6 +2,8 @@
 
 import logo from './images/newlogo.png';
 import todo from './images/todo.jpg';
+import jar from './images/jar.PNG';
+import google from './images/google.PNG';
 import './App.css';
 import Introduction from './Components/day 1/first';
 import Second from './Components/day 1/Second';

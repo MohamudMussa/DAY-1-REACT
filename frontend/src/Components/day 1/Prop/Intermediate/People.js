@@ -15,6 +15,7 @@ const PeopleTest = () => {
                     <div key={i} >  
 
 
+                    <h5>  {item.id} </h5>
                     <h1>  {item.title} </h1>
                     
                     <h5 className="spacer"> {item.type} </h5>
