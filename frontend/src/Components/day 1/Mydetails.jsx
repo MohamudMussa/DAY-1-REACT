@@ -14,12 +14,10 @@ const useStyles = makeStyles((theme) => ({
     width: '100%',
   },
   heading: {
-    fontSize: theme.typography.pxToRem(15),
     flexBasis: '33.33%',
     flexShrink: 0,
   },
   secondaryHeading: {
-    fontSize: theme.typography.pxToRem(15),
     color: theme.palette.text.secondary,
   },
 }));
@@ -102,7 +100,7 @@ export default function ControlledAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          More Detail regarding the above here pal
+            More Detail regarding the above here pal
           </Typography>
         </AccordionDetails>
       </Accordion>

@@ -37,7 +37,7 @@ function App() {
 
 
           <GitHubIcon fontSize="large"></GitHubIcon>
-          <div></div>
+          <div>
             <a
               className="App-link"
               href="https://github.com/MohamudMussa/"
@@ -47,6 +47,8 @@ function App() {
             >
               GitHub Link
         </a>
+        </div>
+  
 
 
 
@@ -59,6 +61,16 @@ function App() {
    
 
             <Introduction> </Introduction>
+
+            <a
+              className="App-link"
+              href="https://www.linkedin.com/in/mohamud-mussa-76272083/"
+              target="_blank"
+              rel="noopener noreferrer"
+              
+            >
+              LinkedIn
+        </a>
 
 
             <FirstParagraph> </FirstParagraph>
@@ -79,6 +91,8 @@ function App() {
           </Container>
         </React.Fragment>
 
+
+   
 
       </header>
     </div>

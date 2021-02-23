@@ -6,11 +6,11 @@ const FirstParagraph = () => {
 
     return (
 
-        <h5 > I’ve always been deeply interested in IT, 
+        <h5  > I’ve always been deeply interested in IT, 
         constantly keeping myself up to date with new technologies 
         and how they affect the world that we live in. I studied 
         Computer Science in both A levels and University. This gave me 
-        a stronger understand & foundation to build off on. I then 
+        a stronger understanding & foundation to build off on. I then 
         secured a role as a Software Analyst where I gained analytical 
         skills to solve problems and also became familiar with Agile,
         ITIL, and other best practice frameworks. Working closely with 
