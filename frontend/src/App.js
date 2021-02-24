@@ -1,6 +1,7 @@
 'use strict';
 
 import logo from './images/newlogo.png';
+import amc from './images/amc.png'
 import todo from './images/todo.jpg';
 import jar from './images/jar.PNG';
 import google from './images/google.PNG';
@@ -15,6 +16,7 @@ import LaptopMacIcon from '@material-ui/icons/LaptopMac';
 import Myprogress from './Components/Myprogress';
 import Hobbies from './Components/Hobbies';
 import Counter from './Components/Counter';
+import Movies from './Components/Movies';
 
 
 import React from 'react';
@@ -27,13 +29,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="My Logo" />
+        <img src={amc} className="App-logo" alt="My Logo" />
 
 
 
         <React.Fragment>
 
           <Container fixed>
+
+            <Movies></Movies>
 
             {/* <Counter></Counter> */}
 
@@ -43,7 +47,7 @@ function App() {
 
 
 
-
+{/* 
 
 
 
@@ -97,7 +101,7 @@ function App() {
           <h1>My Hobbies</h1>
           <Hobbies></Hobbies>
 
-          <h1 className = "spacer"> ... </h1>
+          <h1 className = "spacer"> ... </h1> */}
 
           </Container>
         </React.Fragment>
