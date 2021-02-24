@@ -14,13 +14,14 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LaptopMacIcon from '@material-ui/icons/LaptopMac';
 import Myprogress from './Components/Myprogress';
 import Hobbies from './Components/Hobbies';
-import Avatar from './Components/Avatar';
+import Counter from './Components/Counter';
 
 
 import React from 'react';
 import Container from '@material-ui/core/Container';
 
 import PropsDiff from './Components/day 1/Prop/Intermediate/PropsDiff'
+import ProductManager from './Components/Exercise/ProductManger';
 
 function App() {
   return (
@@ -33,6 +34,16 @@ function App() {
         <React.Fragment>
 
           <Container fixed>
+
+            {/* <Counter></Counter> */}
+
+{/* 
+        <ProductManager/> */}
+
+
+
+
+
 
 
 

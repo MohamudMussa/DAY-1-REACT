@@ -10,22 +10,21 @@ const PeopleTest = () => {
     return (
         <table>
             <tbody >
-                {People.map((item, i) => (
+                {People.map((info, i) => (
 
                     <div key={i} >  
 
 
-                    <h5>  {item.id} </h5>
-                    <h1>  {item.title} </h1>
+                    <h5>  {info.id} </h5>
+                    <h1>  {info.title} </h1>
                     
-                    <h5 className="spacer"> {item.type} </h5>
+                    <h5 className="spacer"> {info.type} </h5>
 
 
 
 
 
-                    <h6>{item.detail} </h6>
-
+                    <h6>{info.detail} </h6>
 
 
                     </div>
