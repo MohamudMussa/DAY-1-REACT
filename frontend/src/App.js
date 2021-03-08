@@ -1,6 +1,7 @@
 'use strict';
 
 import logo from './images/newlogo.png';
+
 import todo from './images/todo.jpg';
 import jar from './images/jar.PNG';
 import google from './images/google.PNG';
@@ -15,11 +16,7 @@ import LaptopMacIcon from '@material-ui/icons/LaptopMac';
 import Myprogress from './Components/Myprogress';
 import Hobbies from './Components/Hobbies';
 import Counter from './Components/Counter';
-<<<<<<< Updated upstream
-=======
 import Movies from './Components/Movies';
-import HomePage from './Components/HomePage';
->>>>>>> Stashed changes
 
 
 import React from 'react';
@@ -32,29 +29,22 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-<<<<<<< Updated upstream
         <img src={logo} className="App-logo" alt="My Logo" />
-=======
-        {/* <img src={amc} className="App-logo" alt="My Logo" /> */}
->>>>>>> Stashed changes
+
+        <script type="text/javascript" src="/le-mtagconfig.js"></script>
 
 
 
         <React.Fragment>
 
           <Container fixed>
-
-<<<<<<< Updated upstream
-=======
-            {/* <HomePage> </HomePage> */}
-
+{/* 
             <Movies></Movies>
 
->>>>>>> Stashed changes
-            {/* <Counter></Counter> */}
+            <Counter></Counter> */}
 
-{/* 
-        <ProductManager/> */}
+
+        {/* <ProductManager/> */}
 
 
 
