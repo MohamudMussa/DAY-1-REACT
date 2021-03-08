@@ -1,6 +1,7 @@
 'use strict';
 
 import logo from './images/newlogo.png';
+
 import todo from './images/todo.jpg';
 import jar from './images/jar.PNG';
 import google from './images/google.PNG';
@@ -15,6 +16,7 @@ import LaptopMacIcon from '@material-ui/icons/LaptopMac';
 import Myprogress from './Components/Myprogress';
 import Hobbies from './Components/Hobbies';
 import Counter from './Components/Counter';
+import Movies from './Components/Movies';
 
 
 import React from 'react';
@@ -29,16 +31,20 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="My Logo" />
 
+        <script type="text/javascript" src="/le-mtagconfig.js"></script>
+
 
 
         <React.Fragment>
 
           <Container fixed>
-
-            {/* <Counter></Counter> */}
-
 {/* 
-        <ProductManager/> */}
+            <Movies></Movies>
+
+            <Counter></Counter> */}
+
+
+        {/* <ProductManager/> */}
 
 
 
